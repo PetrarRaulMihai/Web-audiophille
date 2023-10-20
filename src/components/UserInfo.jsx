@@ -27,7 +27,7 @@ function UserInfo({ userInfo, setUserInfo }) {
             onChange={handleChange}
             type="text"
             pattern="[A-Za-z]+"
-            placeholder="Iulian"
+            placeholder="John"
             className={`p-3 border rounded-lg ${
               userInfo.firstName != "" ? "border-gray-300" : "border-orange-500"
             } `}
@@ -40,7 +40,7 @@ function UserInfo({ userInfo, setUserInfo }) {
           <input
             onChange={handleChange}
             type="text"
-            placeholder="Caldarescu"
+            placeholder="Smith"
             className={`p-3 border rounded-lg ${
               userInfo.lastName != "" ? "border-gray-300" : "border-orange-500"
             } `}
@@ -53,7 +53,7 @@ function UserInfo({ userInfo, setUserInfo }) {
           <input
             onChange={handleChange}
             type="email"
-            placeholder="example@gmail.com"
+            placeholder="johnsmith@gmail.com"
             className={`p-3 border rounded-lg ${
               userInfo.email != "" ? "border-gray-300" : "border-orange-500"
             } `}
@@ -87,7 +87,7 @@ function UserInfo({ userInfo, setUserInfo }) {
           <input
             onChange={handleChange}
             type="text"
-            placeholder="Mihai Viteazul"
+            placeholder="St. Jose Street"
             className={`p-3 border rounded-lg ${
               userInfo.address !== ""
                 ? "border-gray-300"
@@ -102,7 +102,7 @@ function UserInfo({ userInfo, setUserInfo }) {
           <input
             onChange={handleChange}
             type="text"
-            placeholder="Mihai Viteazul"
+            placeholder="Central Park"
             className={`p-3 border rounded-lg ${
               userInfo.address !== ""
                 ? "border-gray-300"
@@ -145,7 +145,7 @@ function UserInfo({ userInfo, setUserInfo }) {
           <input
             onChange={handleChange}
             type="text"
-            placeholder="Cluj"
+            placeholder="Bucharest"
             className={`p-3 border rounded-lg ${
               userInfo.city !== "" ? "border-gray-300" : "border-orange-500"
             } `}
@@ -243,7 +243,7 @@ function UserInfo({ userInfo, setUserInfo }) {
                     ? "border-gray-300"
                     : "border-orange-500"
                 } `}
-                placeholder="Caldarescu Iulian"
+                placeholder="Smith John"
                 type="text"
                 name="cardOwner"
               ></input>
@@ -258,7 +258,7 @@ function UserInfo({ userInfo, setUserInfo }) {
                     ? "border-gray-300"
                     : "border-orange-500"
                 } `}
-                placeholder="1111 1111 1111 1111"
+                placeholder="1234 5678 9123 4567"
                 type="number"
                 name="cardNumber"
               ></input>
